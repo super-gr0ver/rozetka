@@ -1,10 +1,37 @@
-.logo {
-
+@font-face {
+  font-family: "Inter Medium";
+  src: url("../fonts/Inter-Medium.ttf");
 }
 
 .rootcontainer {
-
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
 }
-p {
-  color: brown;
+
+.tagline {
+  font-family: 'Inter Medium';
+  text-transform: uppercase;
+  text-align: end;
+  font-size: 12px;
+  color: #A5A5A5;
+  width: 71px;
+  height: 40px;
+  padding-top: 17px;
+}
+
+.logo_header {
+  border: 1px solid red;
+  height: 40.5px;
+}
+
+.catalog_header {
+  border: 1px solid red;
+}
+
+
+.contacts_header {
+  border: 1px solid red;
 }
