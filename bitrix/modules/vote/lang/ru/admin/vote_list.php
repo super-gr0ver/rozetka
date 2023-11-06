@@ -61,4 +61,6 @@ $MESS["VOTE_COPY"] = "Копировать";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Изменить";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Удалить";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Выбрано:";
-$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Отмеч
+$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Отмечено:";
+$MESS["VOTE_AUTHOR_ID"] = "Автор";
+?>

@@ -440,7 +440,7 @@ if (typeof (CrmAdsRetargeting) === "undefined")
 				null,
 				{
 					width: 500,
-					autoHide: false,
+					autoHide: true,
 					lightShadow: true,
 					closeByEsc: true,
 				},
@@ -618,7 +618,6 @@ if (typeof (CrmAdsRetargeting) === "undefined")
 				}
 				else
 				{
-					this.setClassForAddAudienceButton();
 					this.ShowErrorEmptyAudiences();
 				}
 
@@ -655,7 +654,7 @@ if (typeof (CrmAdsRetargeting) === "undefined")
 				this.updateAudienceSelectorBtnByMenu(this.audienceMenu);
 
 				this.hasAudiences = this.audienceMenu.getMenuItems().length > 0;
-				this.setClassForAddAudienceButton();
+				this.ShowErrorEmptyAudiences();
 
 				this.showAudienceLoadingState(false);
 			}, this));
@@ -832,18 +831,6 @@ if (typeof (CrmAdsRetargeting) === "undefined")
 			if (this.uiNodes.errorNotFound)
 			{
 				this.uiNodes.errorNotFound.style.display = this.hasAudiences ? "none" : "";
-			}
-		},
-		setClassForAddAudienceButton: function() {
-			if (this.uiNodes.addAudienceBtn && !this.hasAudiences)
-			{
-				this.uiNodes.addAudienceBtn.classList.remove('ui-btn-link');
-				this.uiNodes.addAudienceBtn.classList.add('ui-btn-success');
-			}
-			else
-			{
-				this.uiNodes.addAudienceBtn.classList.remove('ui-btn-success');
-				this.uiNodes.addAudienceBtn.classList.add('ui-btn-link');
 			}
 		},
 		hideAddAudienceButton: function() {

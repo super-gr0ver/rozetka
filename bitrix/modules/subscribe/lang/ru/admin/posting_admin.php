@@ -52,4 +52,13 @@ $MESS["POST_FIND_TITLE"] = "Введите строку для поиска";
 $MESS["post_save_err"] = "Ошибка при сохранении выпуска #";
 $MESS["POST_F_RUBRIC"] = "Рассылки";
 $MESS["POST_ADM_POST_NOT_FOUND"] = "Выпуск не найден.";
-$MESS["POST_ADM_WITH_ERRORS"] = "
+$MESS["POST_ADM_WITH_ERRORS"] = "Из них с ошибками";
+$MESS["POST_ADM_BTN_STOP"] = "Остановить";
+$MESS["POST_ADM_SENDING_NOTE_LINE1"] = "Идет отправка выпуска.";
+$MESS["POST_ADM_SENDING_NOTE_LINE2"] = "Не уходите со страницы до окончания процесса.";
+$MESS["MAIN_ADMIN_LIST_SELECTED"] = "Выбрано:";
+$MESS["MAIN_ADD"] = "Добавить";
+$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Отмечено:";
+$MESS["MAIN_ALL"] = "(все)";
+$MESS["MAIN_ADMIN_LIST_DELETE"] = "удалить";
+?>

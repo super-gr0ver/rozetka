@@ -56,4 +56,6 @@ $MESS["VOTE_VOTES_DROPDOWN"] = "Результаты [COUNTER]";
 $MESS["VOTE_VOTES_RESET"] = "Обнулить";
 $MESS["VOTE_VOTES_EXPORT"] = "Excel с группировкой по ответам";
 $MESS["VOTE_VOTES_EXPORT_2"] = "Excel без группировки";
-$MESS["VOTE_VOTES_GOTO_LIST"
+$MESS["VOTE_VOTES_GOTO_LIST"] = "Смотреть таблицу";
+$MESS["VOTE_VOTES_GOTO_VIEW"] = "Смотреть диаграмму";
+?>

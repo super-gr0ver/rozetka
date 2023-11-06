@@ -1,6 +1,5 @@
 <?php
-
-return array (
+return array (
   'utf_mode' => 
   array (
     'value' => true,
@@ -46,8 +45,8 @@ return array (
       array (
         'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
         'host' => 'localhost',
-        'database' => 'codelabs',
-        'login' => 'codelabs',
+        'database' => 'codelabs_rozetka',
+        'login' => 'codelabs_rozetka',
         'password' => 'Rewq1234',
         'options' => 2.0,
       ),
@@ -58,7 +57,7 @@ return array (
   array (
     'value' => 
     array (
-      'crypto_key' => '90ff9d8a7ccf7d46d823982ab4060057',
+      'crypto_key' => '13aebf74e0ab0dd755939801891fe42f',
     ),
     'readonly' => true,
   ),

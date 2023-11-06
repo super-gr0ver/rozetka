@@ -164,7 +164,7 @@ class CVoteUfComponent extends \CBitrixComponent
 	}
 
 	/**
-	 * @return Application|\Bitrix\Main\HttpApplication|CMain
+	 * @return Application|\Bitrix\Main\HttpApplication|\CAllMain|\CMain
 	 */
 	protected function getApplication()
 	{
@@ -173,7 +173,7 @@ class CVoteUfComponent extends \CBitrixComponent
 	}
 
 	/**
-	 * @return array|bool|CUser
+	 * @return array|bool|\CAllUser|\CUser
 	 */
 	protected function getUser()
 	{

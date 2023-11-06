@@ -143,4 +143,18 @@ $MESS['REST_INTEGRATION_PATTERNS_18_INCOMING_QUERY_TITLE'] = 'Параметры
 $MESS['REST_INTEGRATION_PATTERNS_18_INCOMING_QUERY_ITEMS_VALUE_0'] = 'Привет! Я чат-бот!';
 
 $MESS['REST_INTEGRATION_PATTERNS_19_TITLE'] = 'Передавать боту сообщения из чата';
-$MESS['REST_INTEGRATION_PATTERNS_19_DES
+$MESS['REST_INTEGRATION_PATTERNS_19_DESCRIPTION'] = 'Создайте чатбота, который будет следить за перепиской в чате и сможет реагировать на ключевые слова';
+$MESS['REST_INTEGRATION_PATTERNS_19_INCOMING_QUERY_TITLE'] = 'Параметры';
+$MESS['REST_INTEGRATION_PATTERNS_19_INCOMING_QUERY_ITEMS_VALUE_0'] = 'Привет! Я чат-бот!';
+
+$MESS['REST_INTEGRATION_PATTERNS_1001_TITLE'] = 'Входящий вебхук';
+$MESS['REST_INTEGRATION_PATTERNS_1001_DESCRIPTION'] = 'Создайте входящий вебхук, для работы с данными вашего Битрикс24 через API';
+$MESS['REST_INTEGRATION_PATTERNS_1001_INCOMING_QUERY_TITLE_ITEMS'] = 'Параметры';
+
+$MESS['REST_INTEGRATION_PATTERNS_1002_TITLE'] = 'Исходящий вебхук';
+$MESS['REST_INTEGRATION_PATTERNS_1002_DESCRIPTION'] = 'Создайте исходящий вебхук, чтобы получать информацию о событиях, происходящих в вашем Битрикс24';
+
+$MESS['REST_INTEGRATION_PATTERNS_1003_TITLE'] = 'Локальное приложение';
+$MESS['REST_INTEGRATION_PATTERNS_1003_DESCRIPTION'] = 'Создайте приложение самостоятельно или закажите разработку у наших партнеров';
+$MESS['REST_INTEGRATION_PATTERNS_1003_DESCRIPTION_FULL'] = 'Создайте приложение самостоятельно или <a target="_blank" href="https://www.bitrix24.ru/partners/" >закажите разработку у наших партнеров</a>';
+$MESS['REST_INTEGRATION_PATTERNS_1003_DESCRIPTION_SCOPE_DESCRIPTION'] = 'Выберите доступный функционал Битрикс24 данному приложению';

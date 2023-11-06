@@ -95,4 +95,22 @@ $MESS["SEO_DETAIL_QUERIES_PERIOD_TO"] = "по";
 $MESS["SEO_DETAIL_QUERY_COUNT_ALL"] = "Всего";
 $MESS["SEO_DETAIL_QUERY_TEXT"] = "Текст запроса";
 $MESS["SEO_DETAIL_QUERY_SHOWS"] = "Показов";
-$MESS["SEO_DETAIL_QUERY_AVG_SHOW_POSITION"] = "Средняя позиция показ�
+$MESS["SEO_DETAIL_QUERY_AVG_SHOW_POSITION"] = "Средняя позиция показа";
+$MESS["SEO_DETAIL_QUERY_CLICKS"] = "Кликов";
+$MESS["SEO_DETAIL_QUERY_AVG_CLICK_POSITION"] = "Средняя позиция клика";
+$MESS["SEO_DETAIL_TOTAL_SHOWS_COUNT"] = "Суммарное количество показов по запросу";
+$MESS["SEO_DETAIL_TOP_SHOWS_PERCENT"] = "Общий процент показов по популярным запросам";
+$MESS["SEO_DETAIL_TOP_SHOWS"] = "Популярные запросы";
+$MESS["SEO_DETAIL_TOTAL_CLICKS_COUNT"] = "Суммарное количество кликов";
+$MESS["SEO_DETAIL_TOP_CLICKS_PERCENT"] = "Общий процент кликов по популярным запросам";
+$MESS["SEO_DETAIL_TOP_CLICKS"] = "Популярные клики";
+$MESS["SEO_DETAIL_TOP_CLICKS_COUNT"] = "кликов";
+$MESS["SEO_DETAIL_TOP_SHOWS_COUNT"] = "показов";
+$MESS["SEO_YANDEX_LAST_WEEK_INDEX"] = "Проиндексировано за последнюю неделю";
+$MESS["SEO_DETAIL_CRAWL_ISSUES_CODE"] = "Код ошибки";
+$MESS["SEO_DETAIL_CRAWL_ISSUES_COUNT"] = "Количество";
+$MESS["SEO_ERROR_CODE"] = "код ошибки";
+$MESS["SEO_ERROR_HOST_NOT_VERIFIED"] = "Для просмотра информации нужно подтвердить доступ к сайту";
+$MESS["SEO_ERROR_HOST_NOT_INDEXED"] = "Сайт еще не проиндексирован. Пожалуйста, повторите запрос позже.";
+
+?>

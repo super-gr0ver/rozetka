@@ -44,4 +44,6 @@ $MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_DETAIL"] = "Доступны нов
 $MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_RECOMMENDATION"] = "Рекомендуется своевременно обновлять модули платформы, установить рекомендуемые обновления: <a href=\"/bitrix/admin/update_system.php\" target=\"_blank\">Обновление платформы</a>";
 $MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_ERROR"] = "Не удалось проверить доступность обновлений платформы";
 $MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_ERROR_DETAIL"] = "Возможно доступно обновление системы SiteUpdate или у вашей копии продукта истек период получения обновлений";
-$MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_ERROR_RECOMMENDATION"] = 
+$MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_ERROR_RECOMMENDATION"] = "Подробнее на странице: <a href=\"/bitrix/admin/update_system.php\" target=\"_blank\">Обновление платформы</a>";
+$MESS["SECURITY_SITE_CHECKER_MODULES_VERSION_ARRITIONAL"] = "Модули для которых доступны обновления:<br>#MODULES#";
+?>

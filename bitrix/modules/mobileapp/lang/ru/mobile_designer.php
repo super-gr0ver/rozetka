@@ -49,4 +49,5 @@ $MESS["MOBILEAPP_APP_SAVE_CONFIG_WAIT"] = "Сохранение конфигур
 $MESS["MOBILEAPP_APP_REMOVE_CONFIG_WAIT"] = "Удаление конфигурации";
 $MESS["MOBILEAPP_APP_CREATE_CONFIG_WAIT"] = "Создание конфигурации";
 $MESS["MOBILEAPP_APP_IS_ALREADY_EXISTS"] = "Приложение с заданным символьным кодом уже существует!";
-$MESS["MOBILEAPP_REMOVE_CONFIG_ASK"] = "Все сохраненные настройки конфигура
+$MESS["MOBILEAPP_REMOVE_CONFIG_ASK"] = "Все сохраненные настройки конфигурации будут утеряны.\nУдалить конфигурацию?";
+$MESS["MOBILEAPP_REMOVE_APP_ASK"] = "Все сохраненные настройки приложения будут утеряны.\nФайлы, созданные приложением, удалены не будут.\nУдалить приложение из конструктора?";

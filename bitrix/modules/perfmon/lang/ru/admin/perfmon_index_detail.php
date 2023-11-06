@@ -41,4 +41,8 @@ $MESS["PERFMON_IDETAIL_CREATE_INDEX"] = "Создать индекс";
 $MESS["PERFMON_IDETAIL_BAN_INDEX"] = "Больше не предлагать создавать";
 $MESS["PERFMON_IDETAIL_CREATED_INDEX_DDL"] = "Созданный индекс";
 $MESS["PERFMON_IDETAIL_DROP_INDEX_DDL"] = "Запрос на удаление";
-$MESS["PERF
+$MESS["PERFMON_IDETAIL_DROP_INDEX"] = "Удалить индекс";
+$MESS["PERFMON_IDETAIL_EXPLAIN_AFTER"] = "План исполнения после создания индекса";
+$MESS["PERFMON_IDETAIL_GAIN"] = "Выигрыш производительности";
+$MESS["PERFMON_IDETAIL_OR"] = "или";
+?>

@@ -1,4 +1,7 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
+<?
+if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
+	die();
+?>
 <svg width="0" height="0" class="hidden">
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 179 41" id="rozetkalogo">
     <path d="M10 1.5L9.5 3V7.5L10 14.5V20.5V26L10.5 29.5L11 30L12.5 28.5H14L15.5 30L16.5 32.5L20 32L20.5 31.5L22 30.5L23.5 30L24.5 30.5L25.5 31.5L30 31L33 30.5L34 29.5L34.5 28.5V27.5V18.5V16.0702L34 7.5L33 5.5L31.5 4.5L15 1L12.5 0.5L10 1.5Z" fill="white" stroke="white" stroke-width="0.5" stroke-linecap="round"></path>
@@ -23,5 +26,5 @@
   </symbol>
 </svg>
 
-</body>
+	</body>
 </html>

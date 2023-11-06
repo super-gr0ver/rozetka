@@ -214,4 +214,14 @@ function stemming_ru($word, $flags = 0)
 		elseif((mb_substr($rv, -3) == "ОСТ") && ($rv_len >= ($R2+3)))
 			$rv = mb_substr($rv, 0, $rv_len - 3);
 	}
-	//Step 4: (1) Undouble н (n), 
+	//Step 4: (1) Undouble н (n), or, (2) if the word ends with a SUPERLATIVE ending, remove it and undouble н (n), or (3) if the word ends ь (') (soft sign) remove it.
+	$rv = preg_replace("/(ЕЙШЕ|ЕЙШ)$/".BX_UTF_PCRE_MODIFIER, "", $rv);
+	$r = preg_replace("/НН$/".BX_UTF_PCRE_MODIFIER, "Н", $rv);
+	if($r == $rv)
+		$rv = preg_replace("/Ь$/".BX_UTF_PCRE_MODIFIER, "", $rv);
+	else
+		$rv = $r;
+
+	return $word.$rv;
+}
+?>

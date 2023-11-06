@@ -31,4 +31,9 @@ $MESS['LANDING_COOKIES_SYS_VKP_TEXT'] = 'Пиксель ВКонтакте (vk.c
 [URL=https://vk.com/privacy/cookies]Подробнее о политике Cookies[/URL]';
 
 $MESS['LANDING_COOKIES_SYS_YT_TITLE'] = 'Youtube';
-$MESS['LANDING_COOKIES_SYS_YT_TEXT'] = 'Cookie-файлы используются сервисом YouTube д�
+$MESS['LANDING_COOKIES_SYS_YT_TEXT'] = 'Cookie-файлы используются сервисом YouTube для отслеживания настроек для встроенного на сайт видеоролика с YouTube, когда он воспроизводится.
+[URL=https://www.youtube.com/t/terms]Подробнее о политике Youtube[/URL]
+[URL=https://policies.google.com/technologies/types]Подробнее о типах файлов, которые использует Google[/URL]';
+
+$MESS['LANDING_COOKIES_SYS_GMAP_TITLE'] = 'Google Maps';
+$MESS['LANDING_COOKIES_SYS_GMAP_TEXT'] = 'На сайте используются функции и контент приложения Google Карт, которые регулируются [URL=https://maps.google.com/help/terms_maps/]Дополнительными условиями использования сервисов "Google Карты" и "Google Планета Земля"[/URL], а также [URL=https://policies.google.com/privacy]политикой конфиденциальности Google[/URL]';

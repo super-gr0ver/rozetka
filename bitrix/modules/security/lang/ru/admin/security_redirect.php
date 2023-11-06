@@ -30,3 +30,16 @@ $MESS["SEC_REDIRECT_REFERER_CHECK"] = "Проверять наличие HTTP-з
 $MESS["SEC_REDIRECT_REFERER_SITE_CHECK"] = "HTTP-заголовок, описывающий ссылающуюся страницу, должен содержать текущий сайт.";
 $MESS["SEC_REDIRECT_HREF_SIGN"] = "Добавлять цифровую подпись к перечисленным ниже URL.";
 $MESS["SEC_REDIRECT_URLS"] = "Подписываемые URLs";
+$MESS["SEC_REDIRECT_SYSTEM"] = "Системные";
+$MESS["SEC_REDIRECT_USER"] = "Пользовательские";
+$MESS["SEC_REDIRECT_URL"] = "URL:";
+$MESS["SEC_REDIRECT_PARAMETER_NAME"] = "Имя параметра:";
+$MESS["SEC_REDIRECT_ADD"] = "Добавить";
+$MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Действия";
+$MESS["SEC_REDIRECT_ACTIONS"] = "Действия защиты от фишинга:";
+$MESS["SEC_REDIRECT_SHOW_MESSAGE_AND_STAY"] = "Показать сообщение о попытке перенаправления на другой сайт.";
+$MESS["SEC_REDIRECT_MESSAGE"] = "Сообщение";
+$MESS["SEC_REDIRECT_LOG"] = "Занести попытку фишинга в журнал";
+$MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Перенаправить на заданный URL.";
+$MESS["SEC_REDIRECT_ACTION_REDIRECT_URL"] = "URL:";
+?>
